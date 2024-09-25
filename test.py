@@ -27,3 +27,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+class MyClass(object):
+    def __init__(self):
+        self.message = 'Hello'
+        return self  # Noncompliant
